@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: #1c1c1c;
 }
 
 .container {
@@ -26,6 +27,12 @@ body {
   color: #d5d4d8;
 }
 
+.footer {
+  margin: 20px 0 0 0;
+  text-align: center;
+  font-size: 14px;
+}
+
 .container-rule {
   margin: 0 0 35px 0;
   width: 100%;
@@ -43,11 +50,17 @@ body {
   border-radius: 6px;
 }
 
+.container > button:hover {
+  background-color: #273549;
+}
 .container-password > div {
   width: 210px;
-  height: 40px;
+  min-height: 20px;
   background-color: #273549;
   border-radius: 6px;
+  color: #55f991;
+  text-align: center;
+  padding: 10px 20px;
 }
 
 .container-password {
